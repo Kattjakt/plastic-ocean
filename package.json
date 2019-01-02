@@ -1,0 +1,26 @@
+{
+  "name": "plastic-ocean",
+  "private": true,
+  "displayName": "Plastic Ocean",
+  "description": "A VSCode theme using general UI from Plastic and token colors from Monokai Ocean",
+  "version": "2.2.0",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Plastic Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "devDependencies": {
+    "vsce": "^1.42.0"
+  }
+}
